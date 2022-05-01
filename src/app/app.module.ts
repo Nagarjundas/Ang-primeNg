@@ -8,10 +8,12 @@ import { InputTextModule } from 'primeng/inputtext';
 import { MessageModule } from 'primeng/message';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { CenterComponent } from './center/center.component';
 
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent],
+  declarations: [AppComponent, FooterComponent, HeaderComponent, CenterComponent],
   imports: [BrowserModule, AppRoutingModule, ButtonModule, InputTextModule, TabMenuModule,  MessageModule],
   providers: [],
   bootstrap: [AppComponent],
